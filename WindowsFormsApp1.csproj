@@ -1,0 +1,869 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{3DC4F492-D8C9-471A-93B2-6AAA3E4879B3}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>WindowsFormsApp1</RootNamespace>
+    <AssemblyName>WindowsFormsApp1</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddImage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddImage.Designer.cs">
+      <DependentUpon>AddImage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="addimage1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="addimage1.Designer.cs">
+      <DependentUpon>addimage1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddImage2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddImage2.Designer.cs">
+      <DependentUpon>AddImage2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Addimage3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Addimage3.Designer.cs">
+      <DependentUpon>Addimage3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="addimage4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="addimage4.Designer.cs">
+      <DependentUpon>addimage4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Addimage5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Addimage5.Designer.cs">
+      <DependentUpon>Addimage5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="adminpage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="adminpage.Designer.cs">
+      <DependentUpon>adminpage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="american eskimo dog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="american eskimo dog.Designer.cs">
+      <DependentUpon>american eskimo dog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="american foxhound.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="american foxhound.Designer.cs">
+      <DependentUpon>american foxhound.cs</DependentUpon>
+    </Compile>
+    <Compile Include="buy1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="buy1.Designer.cs">
+      <DependentUpon>buy1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="buy2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="buy2.Designer.cs">
+      <DependentUpon>buy2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="buy3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="buy3.Designer.cs">
+      <DependentUpon>buy3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="buy4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="buy4.Designer.cs">
+      <DependentUpon>buy4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="buynow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="buynow.Designer.cs">
+      <DependentUpon>buynow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ccdbill.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ccdbill.Designer.cs">
+      <DependentUpon>ccdbill.cs</DependentUpon>
+    </Compile>
+    <Compile Include="checkboxdemo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="checkboxdemo.Designer.cs">
+      <DependentUpon>checkboxdemo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="demo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="demo.Designer.cs">
+      <DependentUpon>demo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="dog details.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dog details.Designer.cs">
+      <DependentUpon>dog details.cs</DependentUpon>
+    </Compile>
+    <Compile Include="dummy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dummy.Designer.cs">
+      <DependentUpon>dummy.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form10.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form10.Designer.cs">
+      <DependentUpon>Form10.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form11.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form11.Designer.cs">
+      <DependentUpon>Form11.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form12.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form12.Designer.cs">
+      <DependentUpon>Form12.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form13.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form13.Designer.cs">
+      <DependentUpon>Form13.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form14.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form14.Designer.cs">
+      <DependentUpon>Form14.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form15.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form15.Designer.cs">
+      <DependentUpon>Form15.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form16.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form16.Designer.cs">
+      <DependentUpon>Form16.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form3.Designer.cs">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form4.Designer.cs">
+      <DependentUpon>Form4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form5.Designer.cs">
+      <DependentUpon>Form5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form6.Designer.cs">
+      <DependentUpon>Form6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form7.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form7.Designer.cs">
+      <DependentUpon>Form7.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form8.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form8.Designer.cs">
+      <DependentUpon>Form8.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form9.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form9.Designer.cs">
+      <DependentUpon>Form9.cs</DependentUpon>
+    </Compile>
+    <Compile Include="French Bulldogs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="French Bulldogs.Designer.cs">
+      <DependentUpon>French Bulldogs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="german shepherd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="german shepherd.Designer.cs">
+      <DependentUpon>german shepherd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="iihtDataSet.cs">
+      <DependentUpon>iihtDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="iihtDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>iihtDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="iihtDataSet1.cs">
+      <DependentUpon>iihtDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="iihtDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>iihtDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="iihtDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>iihtDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="iihtDataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>iihtDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="iihtDataSet4.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>iihtDataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="iihtDataSet5.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>iihtDataSet5.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="iihtDataSet6.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>iihtDataSet6.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="iihtDataSet7.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>iihtDataSet7.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="login.Designer.cs">
+      <DependentUpon>login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="login2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="login2.Designer.cs">
+      <DependentUpon>login2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MDIParent1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MDIParent1.Designer.cs">
+      <DependentUpon>MDIParent1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="radiobutton.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="radiobutton.Designer.cs">
+      <DependentUpon>radiobutton.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Registration.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registration.Designer.cs">
+      <DependentUpon>Registration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="salesr2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="salesr2.Designer.cs">
+      <DependentUpon>salesr2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="salesr3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="salesr3.Designer.cs">
+      <DependentUpon>salesr3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="salesr4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="salesr4.Designer.cs">
+      <DependentUpon>salesr4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="salesreport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="salesreport.Designer.cs">
+      <DependentUpon>salesreport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="siberian husky.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="siberian husky.Designer.cs">
+      <DependentUpon>siberian husky.cs</DependentUpon>
+    </Compile>
+    <Compile Include="slaesr1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="slaesr1.Designer.cs">
+      <DependentUpon>slaesr1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="stationery.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="stationery.Designer.cs">
+      <DependentUpon>stationery.cs</DependentUpon>
+    </Compile>
+    <Compile Include="userdetail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="userdetail.Designer.cs">
+      <DependentUpon>userdetail.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AddImage.resx">
+      <DependentUpon>AddImage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="addimage1.resx">
+      <DependentUpon>addimage1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddImage2.resx">
+      <DependentUpon>AddImage2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Addimage3.resx">
+      <DependentUpon>Addimage3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="addimage4.resx">
+      <DependentUpon>addimage4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Addimage5.resx">
+      <DependentUpon>Addimage5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="adminpage.resx">
+      <DependentUpon>adminpage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="american eskimo dog.resx">
+      <DependentUpon>american eskimo dog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="american foxhound.resx">
+      <DependentUpon>american foxhound.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="buy1.resx">
+      <DependentUpon>buy1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="buy2.resx">
+      <DependentUpon>buy2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="buy3.resx">
+      <DependentUpon>buy3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="buy4.resx">
+      <DependentUpon>buy4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="buynow.resx">
+      <DependentUpon>buynow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ccdbill.resx">
+      <DependentUpon>ccdbill.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="checkboxdemo.resx">
+      <DependentUpon>checkboxdemo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="demo.resx">
+      <DependentUpon>demo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dog details.resx">
+      <DependentUpon>dog details.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dummy.resx">
+      <DependentUpon>dummy.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form10.resx">
+      <DependentUpon>Form10.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form11.resx">
+      <DependentUpon>Form11.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form12.resx">
+      <DependentUpon>Form12.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form13.resx">
+      <DependentUpon>Form13.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form14.resx">
+      <DependentUpon>Form14.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form15.resx">
+      <DependentUpon>Form15.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form16.resx">
+      <DependentUpon>Form16.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form3.resx">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form4.resx">
+      <DependentUpon>Form4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form5.resx">
+      <DependentUpon>Form5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form6.resx">
+      <DependentUpon>Form6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form7.resx">
+      <DependentUpon>Form7.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form8.resx">
+      <DependentUpon>Form8.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form9.resx">
+      <DependentUpon>Form9.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="French Bulldogs.resx">
+      <DependentUpon>French Bulldogs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="german shepherd.resx">
+      <DependentUpon>german shepherd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="login.resx">
+      <DependentUpon>login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="login2.resx">
+      <DependentUpon>login2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MDIParent1.resx">
+      <DependentUpon>MDIParent1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="radiobutton.resx">
+      <DependentUpon>radiobutton.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registration.resx">
+      <DependentUpon>Registration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="salesr2.resx">
+      <DependentUpon>salesr2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="salesr3.resx">
+      <DependentUpon>salesr3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="salesr4.resx">
+      <DependentUpon>salesr4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="salesreport.resx">
+      <DependentUpon>salesreport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="siberian husky.resx">
+      <DependentUpon>siberian husky.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="slaesr1.resx">
+      <DependentUpon>slaesr1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="stationery.resx">
+      <DependentUpon>stationery.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="userdetail.resx">
+      <DependentUpon>userdetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="iihtDataSet.xsc">
+      <DependentUpon>iihtDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="iihtDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>iihtDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="iihtDataSet.xss">
+      <DependentUpon>iihtDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="iihtDataSet1.xsc">
+      <DependentUpon>iihtDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="iihtDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>iihtDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="iihtDataSet1.xss">
+      <DependentUpon>iihtDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="iihtDataSet2.xsc">
+      <DependentUpon>iihtDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="iihtDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>iihtDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="iihtDataSet2.xss">
+      <DependentUpon>iihtDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="iihtDataSet3.xsc">
+      <DependentUpon>iihtDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="iihtDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>iihtDataSet3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="iihtDataSet3.xss">
+      <DependentUpon>iihtDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="iihtDataSet4.xsc">
+      <DependentUpon>iihtDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="iihtDataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>iihtDataSet4.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="iihtDataSet4.xss">
+      <DependentUpon>iihtDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="iihtDataSet5.xsc">
+      <DependentUpon>iihtDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="iihtDataSet5.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>iihtDataSet5.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="iihtDataSet5.xss">
+      <DependentUpon>iihtDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="iihtDataSet6.xsc">
+      <DependentUpon>iihtDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="iihtDataSet6.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>iihtDataSet6.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="iihtDataSet6.xss">
+      <DependentUpon>iihtDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="iihtDataSet7.xsc">
+      <DependentUpon>iihtDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="iihtDataSet7.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>iihtDataSet7.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="iihtDataSet7.xss">
+      <DependentUpon>iihtDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\peakpx.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HD-wallpaper-transparent-glass-coffee-cup-light-graphy.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\main.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\two-stylish-girls-sunny-field-with-dogs_1157-34632.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\240_F_121040046_liiMf46C9r2DfD2y757G1Az9zkBsKz1w.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\240_F_141022623_Wi0PLc8Xi1K4FcPKF4UJAjNu6vuYjha5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\240_F_167618810_WYbpRVYGFXQrBOj2Hj3L1uaMRk1kjx15.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\122.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pexels-photo-6785222.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pexels-photo-4607862.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GmVovI.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\desktop-1680x1050.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\desktop-728x410.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\desktop-800x450.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\b6f4871ad1a44ee4a55888ab66aded3c.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\b6f4871ad1a44ee4a55888ab66aded3c %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dog1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dog2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\g5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\g6.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\g8.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\g9.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\g91.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\s1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\s2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\s3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\s4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\f4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\f5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\f6.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\f7.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\af1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\af2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\af3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\af4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ae1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ae11.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ae2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ae3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ae4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wall.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\paws.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\admin.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\admin1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\reg.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\reg1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\reg3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dogd.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\adminpage.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\adminpage1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\admin2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\adminpag2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\userd.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ud2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ud3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ud4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ud5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ud6.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ud7.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sales.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\addimage.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\addi.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\salesre.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\buy.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\save.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sav.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\addimage1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\addimage11.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
